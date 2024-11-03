@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>my Facebook profile</title>
+</head>
+   <style>
+    h1{
+     font-size: 17px ;
+     font-weight: 500;
+     position: relative ;
+     left: 4.7rem;
+     top: -2.9rem;
+    }
+    .bipp{
+     height: 65px ;
+     width: 65px ;
+     top: 20px ;
+     position: relative ;
+     border-radius: 50px;
+     border: 1.5px solid black ;
+    }
+    nav{
+     position: relative ;
+     top: -3.5rem;
+     left: 4.6rem ;
+     color: #7C7E97;
+    }
+    .p1{
+     font-size: 20px ;
+     width: 300px;
+     line-height: 1.5em ;
+     position: relative ;
+     bottom: 60px ;
+     left: 10px ;
+    }
+    .big2{
+     width: 250px;
+     position: relative ;
+     bottom: 70px ;
+     left: 10px ;
+     height: 28rem ;
+    }
+    .one{
+     height: 150px;
+     position: relative ;
+     left: 17.7rem;
+     bottom: 32.6rem;
+     width: 150px ;
+    }
+    .two{
+     height: 145px ;
+     width: 130px;
+     bottom: 32.7rem;
+     position: relative ;
+     left: 18rem ;
+    }
+   .three{
+    position: relative ;
+    height: 145px ;
+    width: 130px ;
+    bottom: 32.7rem ;
+    left: 18rem ;
+   }
+   .pip2{
+    position: relative ;
+    bottom: 33.6rem ;
+    left: 2.2rem ;
+    font-size: 18px;
+   }
+   .love{
+    position: relative ;
+    bottom: 36rem ;
+    left: 17px;
+    font-size: 12px;
+   }
+   .do{
+    position: relative ;
+    bottom: 37rem;
+    height: 20px ;
+    width: 20px ;
+   }
+   button{
+    position: relative ;
+    bottom: 36.8rem ;
+    height: 40px ;
+    width: 95px ;
+    margin: 0px ;
+    border: none ;
+    border-radius: 50px ;
+    font-size: 18px;
+   }
+   .pp{
+    position: relative ;
+    left: 22rem ;
+    top: -78.5rem ;
+    font-size: 25px ;
+    margin: 10px ;
+    color: #505263
+   }
+   svg{
+    position: relative ;
+    bottom: 33rem ;
+    color: lawngreen;
+   }
+   .pp0{
+    bottom: 80.4rem ;
+    position:relative ;
+    color: #3AC238;
+    left: 3.3rem ;
+    border-radius: 50% ;
+    font-size: 17px ;
+    z-index: 1;
+   }
+   .like{
+    color: dodgerblue;
+    position: relative;
+    top: -37.4rem;
+    left: -1px;
+    z-index: -1;
+    font-size: 20px;
+   }
+   </style>
+<body>
+    <div class="input-cnt">
+       <div>
+         <img src="big.jpg" class="bipp">
+        <h1>Ibrahim Mohamed Aden</h1>
+        <nav>
+         Oct 20, 2023 .
+        </nav>
+           <div>
+            <p class="p1">
+             jamca wanaagsan azxpta
+             Meel kasta oo aad joogtiin
+           </p>
+             <div>
+              <img src="big.jpg" class="big2" onclick="ibro(this)"  id="button">
+             </div>
+               <div>
+                <img src="one.jpg" class="one" onclick="ibro(this)">
+               </div>
+               <div>
+                 <img src="two.jpg" class="two" onclick="ibro(this)">
+               </div>
+                <div>
+                 <img src="three.jpg" class="three" onclick="ibro(this)">
+                </div>
+                 <div>
+                  <p class="pip2">You Møűstaphe Updy Haarøőn and 1.8k..... </p>
+                 </div>
+                   <div class="love">
+                    💟
+                   </div>
+                  <div class="like">
+                   <i class="fa-solid fa-thumbs-up"></i>
+                  </div>
+                  <div>
+                   <button><i class="fa-solid fa-thumbs-up"></i> 1.8k</button>
+                   <button> <i class="fa-regular fa-message"></i>  457</button>
+                   <button> <i class="fa-brands fa-facebook-messenger"></i></button>
+                   <button><i class="fa-solid fa-share"></i> 3</button>
+                  </div>
+                <div class="pp">•••</div>
+           </div>
+            <div>
+             <div class="pp0">●</div>
+            </div>
+       </div>
+    </div>
+    
+    <script>
+     function ibro(ibo){
+     const fully = document.getElementById('button');
+     fully.src = ibo.src;
+     }
+    </script>
+</body>
+
+</html>
